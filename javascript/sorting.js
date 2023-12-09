@@ -1,7 +1,6 @@
 // swap function util for sorting algorithms takes input of 2 DOM elements with .style.height feature
 function swap(el1, el2) {
     console.log('In swap()');
-    
     let temp = el1.style.height;
     el1.style.height = el2.style.height;
     el2.style.height = temp;
